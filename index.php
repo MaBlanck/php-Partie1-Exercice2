@@ -8,10 +8,10 @@
 <body>
     <h1>Exercice 2 Partie 1</h1>
     <?php
-    $lastname = "Blanck\t";
-    $firstname = "Max\t";
+    $lastname = 'Blanck';
+    $firstname = 'Max';
     $age = 31;
-    echo ($lastname . $firstname .$age);
+    echo ($lastname . ' ' . $firstname . ' ' . $age);
     ?>
 </body>
 </html>
